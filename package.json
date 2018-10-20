@@ -1,6 +1,6 @@
 {
   "name": "filedljs",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "A small utility library for downloading files from the web, while providing a progress reporting",
   "main": "index.js",
   "keywords": [
@@ -13,6 +13,12 @@
     "email": "aboeyas87@gmail.com",
     "url": "https://github.com/waelhasan"
   },
+  "contributors": [
+    {
+      "name": "M4rk9696",
+      "url": "https://github.com/M4rk9696"
+    }
+  ],
   "repository": {
     "type": "github",
     "url": "https://github.com/waelhasan/filedljs"
@@ -26,5 +32,13 @@
     "request": "^2.88.0",
     "request-progress": "^3.0.0",
     "shelljs": "^0.8.2"
+  },
+  "scripts": {
+    "test": "mocha './test/spec/*.js'",
+    "report": "nyc mocha './test/spec/*.js'"
+  },
+  "devDependencies": {
+    "nyc": "^13.1.0",
+    "mocha": "^5.2.0"
   }
 }

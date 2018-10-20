@@ -139,13 +139,19 @@ const defaultOptions = {
 
 ### Todo:
 
-- Add tests
+- Add more tests:
+    - unit tests 
+    - testing the download functionality (mocking the network)
+    - testing ProgressMonitor (mocking timers)
 - Add proper comments
-- Upload to npm, then use it in [allitebooks-dl](https://github.com/waelhasan/allitebooks-dl)
 
 ## Authors
 
 * **Wael Hasan** - [waelhasan](https://github.com/waelhasan)
+
+## Contributors
+* **M4rk9696** - [M4rk9696](https://github.com/M4rk9696)
+Added some unit tests
 
 ## License
 
